@@ -22,7 +22,9 @@ git commit을 통해 git add로 스테이징 한 변경내용을 기록한다.
 * 상위폴더에서 git init을 선언하면 그 아래에서 일어나는 모든 변경사항들을 추적하므로 주의해야 하며 git ignore명령으로 추적하지 않을 파일들을 선택할 수 있다.
 
 #### Git과 Hub
-
+여러 사람과 협업을 할 경우 프로젝트의 진행사항과 수정 내역들을 공유하게 된다. 이 때 git의 commit내역을 온라인에 저장할 수 있도록 하는 서비스가 GitHub이다. GitHub의 repository에서 클론을 생성하여 파일을 수정할 수 있다.
+로컬에서 Git remote를 통해 리모트를 설정하고 git pull을 통해 Hub->로컬로 commit내역을 동기화하고 git push를 통해 로컬->Hub로 commit내역을 동기화 한다. 
+* 이 때 양쪽의 commit기록이 서로 달라진 채로 동기화를 시도 할경우 collision이 발생한다. 
 
 
 ### Python
