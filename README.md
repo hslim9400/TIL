@@ -105,3 +105,11 @@ for idx, num in enumerate(winners):
 ```
 
 이건 된다.
+
+#### 반복문
+
+##### for
+
+###### for .. else
+
+for와 같은 레벨에  else를 둬서 break없이 for문을 빠져나온 후 실행한다. 있는지도 몰랐던 구문이라 익숙하지 않은데 적절한 상황에서 사용한다면 상당히 유용할 것 같다.
