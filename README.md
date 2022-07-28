@@ -175,19 +175,42 @@ list(zip(*a))
 
 #### 객체지향 프로그래밍
 
+ class 문법을 사용할 때
+
+```python
+class ASDF():
+    def __init__(self, arg1, arg2)
+        self.arg1 = arg1
+        self.arg2 = arg2
+
+```
+
+이렇게도 할 수 있고
+
+```python
+class ASDF():
+    @classmethod    
+    def make_inst(cls, arg1, arg2)
+        return cls(arg1, arg2)
+```
+
+이렇게도 가능하다.
+
+
+
 ##### 추상화
 
 ##### 상속
 
 부모클래스가 가진 모든 속성, 행동, 관계 및 제약조건을 상속받음
 
-애스터리스크(*)를 통해 init메서드도 가져올 수 있음
+super().init()으로 init을 가져오고 더 추가 할 수 있다.
 
 ```python
 class 자식(부모):
 
     def __init__(self, arg1, arg2, *args):
-        super().init(*args)
+        super().__init__(*args)
         self.args1 = args1
         self.args2 = args2
 ```
@@ -197,3 +220,5 @@ class 자식(부모):
 ##### 다형성
 
 ##### 캡슐화
+
+getter과 setter에 대해서 추가예정
