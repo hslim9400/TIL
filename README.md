@@ -182,7 +182,6 @@ class ASDF():
     def __init__(self, arg1, arg2)
         self.arg1 = arg1
         self.arg2 = arg2
-
 ```
 
 이렇게도 할 수 있고
@@ -195,8 +194,6 @@ class ASDF():
 ```
 
 이렇게도 가능하다.
-
-
 
 ##### 추상화
 
@@ -222,3 +219,5 @@ class 자식(부모):
 ##### 캡슐화
 
 getter과 setter에 대해서 추가예정
+
+시험용 수정
