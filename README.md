@@ -140,7 +140,7 @@ func(age = 100, '임)
 
 이렇게는 못부른다.
 
-##### 내장함수, 메서드
+##### 내장함수
 
 ###### zip(*iterables)
 
@@ -166,33 +166,6 @@ list(zip(*a))
 가변인자를 받을 수 있기 때문에 *a로 입력 시 자동으로 a[0], a[1], a[2], ..로 입력받는다. 원소의 개수가 같은 여러개의 리스트를 인자로 입력하면 이들을 묶어 튜플로 생성하여 반환한다.  
 
 전치행렬 구할때 쓰면 유용할만도..
-
-
-
-###### sort
-
-sort(key = lambda x: 어쩌구..)에 대해
-
-lambda는 한줄만에 함수를 정의할 수 있는 키워드이다.
-
-```python
-lambda x : x[1]
-```
-
-이라고 하면 x[1]을 출력하는 함수가 된다.
-
-sort()메서드에서는 key로 함수만 넣을 수 있는데
-
-```python
-a = list([1,2,3], [2, 4, 6])
-a.sort(key = lambda x : x[1])
-```
-
-뭐 이런식으로 적는다 치면 lambda로 x라는 입력에 대해서 x[1]을 출력해주는 함수를 sort의 key로 넣어준 것이다. 따라서 a.sort는 리스트의 [1]값을 참조해서 정렬하게 된다. 만약 리스트가 아닌 딕셔너리를 정렬 할 경우 lambda x : x['key'] 로 특정 키의 밸류순으로 정렬 할 수 있다.
-
-
-
-
 
 ##### LEGB에 대해서
 
@@ -225,39 +198,19 @@ a()
 
 #### 객체지향 프로그래밍
 
- class 문법을 사용할 때
-
-```python
-class ASDF():
-    def __init__(self, arg1, arg2)
-        self.arg1 = arg1
-        self.arg2 = arg2
-```
-
-이렇게도 할 수 있고
-
-```python
-class ASDF():
-    @classmethod    
-    def make_inst(cls, arg1, arg2)
-        return cls(arg1, arg2)
-```
-
-이렇게도 가능하다.
-
 ##### 추상화
 
 ##### 상속
 
 부모클래스가 가진 모든 속성, 행동, 관계 및 제약조건을 상속받음
 
-super().init()으로 init을 가져오고 더 추가 할 수 있다.
+애스터리스크(*)를 통해 init메서드도 가져올 수 있음
 
 ```python
 class 자식(부모):
 
     def __init__(self, arg1, arg2, *args):
-        super().__init__(*args)
+        super().init(*args)
         self.args1 = args1
         self.args2 = args2
 ```
@@ -267,7 +220,3 @@ class 자식(부모):
 ##### 다형성
 
 ##### 캡슐화
-
-getter과 setter에 대해서 추가예정
-
-시험용 수정2
