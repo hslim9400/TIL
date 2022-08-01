@@ -87,8 +87,6 @@ s.remove(x) :  x 삭제, 없을시 KeyError   s.discard(x) : x 삭제, 없어도
 
 d.keys(), d.values(), d.items() : 딕셔너리 들이 각각 keys, values, items(key, item)를 반환 반환하는 자료형은 바꾸어줘야 하는 듯
 
-
-
 리스트에 인덱스를 붙여 딕셔너리로 만들고 싶다
 
 ```python
@@ -132,12 +130,6 @@ for idx, num in enumerate(winners):
 
 for와 같은 레벨에  else를 둬서 break없이 for문을 빠져나온 후 실행한다. 있는지도 몰랐던 구문이라 익숙하지 않은데 적절한 상황에서 사용한다면 상당히 유용할 것 같다.
 
-
-
-
-
-
-
 #### 함수
 
 ##### 인자에 대해서
@@ -163,10 +155,6 @@ func(age = 100, '임)
 ```
 
 이렇게는 못부른다.
-
-
-
-
 
 ##### 내장함수
 
@@ -248,3 +236,30 @@ class 자식(부모):
 ##### 다형성
 
 ##### 캡슐화
+
+
+
+
+
+### 웹 (추가예정)
+
+#### HTML
+
+기본 구조
+
+```html
+<html>
+<head>
+..
+</head>
+
+<body>
+..
+</body>
+
+</html>
+```
+
+
+
+#### CSS
