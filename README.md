@@ -239,31 +239,18 @@ class 자식(부모):
 
 ### 웹 (추가예정)
 
-#### HTML
-
-기본 구조
-
-```html
-<html>
-<head>
-..
-</head>
-
-<body>
-..
-</body>
-
-</html>
-```
+#### 
 
 #### CSS
 
 HTML에서 <style>태그를 붙여서 작성
 
-
-
 ##### flexbox
+
+
 
 ##### 
 
 ##### Bootstrap
+
+grid
