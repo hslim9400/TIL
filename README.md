@@ -247,10 +247,12 @@ HTML에서 <style>태그를 붙여서 작성
 
 ##### flexbox
 
-
-
 ##### 
 
 ##### Bootstrap
 
 grid
+
+1. Bootstrap Grid System은 `flexbox`로 제작됨 ( 따라서 flexbox 기능 사용 가능 )
+2. column은 12칸을 차지함
+3. grid breakpoint는 6가지 ( xs, sm, md, lg, xl, xxl )
