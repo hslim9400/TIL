@@ -251,6 +251,8 @@ HTML에서 <style>태그를 붙여서 작성
 
 ##### Bootstrap
 
+<<<<<<< HEAD
+
 ###### grid
 
 Bootstrap Grid System은 flexbox로 제작됨
