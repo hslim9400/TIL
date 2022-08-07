@@ -247,10 +247,20 @@ HTML에서 <style>태그를 붙여서 작성
 
 ##### flexbox
 
-
-
 ##### 
 
 ##### Bootstrap
 
-grid
+###### grid
+
+Bootstrap Grid System은 flexbox로 제작됨
+
+column은 12칸을 차지함
+
+gird breakpoint는 6가지(xs, sm, md, lg, xl, xxl)
+
+breakpoint를 사용해 화면의 전체 크기에 따라 다른 화면을 표시할수 있다.
+
+즉, 디스플레이의 종류에 따라 화면을 바꿀 수 있다.(반응형 웹)
+
+12칸이 넘어가면 넘어간 박스는 다음 줄부터 시작한다. 빈 칸은 채우지 않음
