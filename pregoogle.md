@@ -94,3 +94,5 @@ a.sort(key = lambda x : x[1])
 ### Django
 
 디렉토리, 이름범위 등등 주의
+
+ 
