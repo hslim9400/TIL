@@ -267,8 +267,6 @@ breakpoint를 사용해 화면의 전체 크기에 따라 다른 화면을 표�
 
 12칸이 넘어가면 넘어간 박스는 다음 줄부터 시작한다. 빈 칸은 채우지 않음
 
-
-
 ### Django
 
 CRUD
@@ -280,3 +278,9 @@ authentication
 login & logout
 
 ### DB
+
+
+
+
+
+##### JavaScript
